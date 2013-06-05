@@ -10,4 +10,4 @@
 ###预览
 ---
 * 首页菜单  
-![menu](/privew.png)
+![menu](http://git.oschina.net/muse/museui/blob/master/privew.png)
