@@ -10,4 +10,4 @@
 ###预览
 ---
 * 首页菜单  
-![menu](privew.png)
+![menu](/privew.png)
