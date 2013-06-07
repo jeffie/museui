@@ -1,0 +1,266 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+background-color:#fff
+}
+button{
+border:0;
+padding-left:10px!important;
+}
+a{
+background:none;
+}
+ .btn,.btn b{
+	
+	background:url('btn.png') no-repeat;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.btn{
+	display:inline-block;
+	white-space:nowrap;
+	outline:0;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;	
+	position:relative;
+}
+.btn:link,.btn:visited, .btn:active {
+	zoom:1;
+	text-decoration:none
+}
+/*------wbtn=white button;iwbtn=icon white button---------*/
+.wbtn b,.iwbtn b {
+    line-height:28px;
+	font-weight:100;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+	background-position:right -480px;
+	color:#666;
+	padding-right:13px;
+}
+.wbtn{
+   line-height:28px;
+	background-position:left -480px;	
+	padding-left:13px;
+}
+.iwbtn {	
+	background-position:left -480px;	
+	padding-left:30px;
+}
+
+.wbtn:hover,.iwbtn:hover{
+	background-position:0 -510px
+}
+.wbtn:hover b,.iwbtn:hover b {
+	background-position:right -510px
+}
+/*----------bbtn=blue button;ibbtn=icon blue button---------------*/
+.bbtn b,.ibbtn b {
+    line-height:28px;
+	font-weight:100;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+	background-position:right -540px;
+	color:#fff;
+	padding-right:13px;
+}
+
+.bbtn{
+    line-height:28px;
+	background-position:left -540px;	
+	padding-left:13px;
+}
+.ibbtn {	
+	background-position:left -540px;	
+	padding-left:30px;
+}
+
+.bbtn:hover,.ibbtn:hover{
+	background-position:0 -570px
+}
+.bbtn:hover b,.ibbtn:hover b {
+	background-position:right -570px
+}
+/*--------------greeen -------------------*/
+.gbtn b,.igbtn b {
+    line-height:28px;
+	font-weight:100;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+	background-position:right -660px;
+	color:#fff;
+	padding-right:13px;
+}
+
+.gbtn{
+    line-height:28px;
+	background-position:left -660px;	
+	padding-left:13px;
+}
+.igbtn {	
+	background-position:left -660px;	
+	padding-left:30px;
+}
+
+.gbtn:hover,.igbtn:hover{
+	background-position:0 -690px
+}
+.gbtn:hover b,.igbtn:hover b {
+	background-position:right -690px
+}
+/*--------------red -------------------*/
+.rbtn b,.irbtn b {
+    line-height:28px;
+	font-weight:100;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+	background-position:right -720px;
+	color:#fff;
+	padding-right:13px;
+}
+
+.rbtn{
+    line-height:28px;
+	background-position:left -720px;	
+	padding-left:13px;
+}
+.irbtn {	
+	background-position:left -720px;	
+	padding-left:30px;
+}
+
+.rbtn:hover,.irbtn:hover{
+	background-position:0 -750px
+}
+.rbtn:hover b,.irbtn:hover b {
+	background-position:right -750px
+}
+/*----------big  button---------------*/
+.bbtn-big,.wbtn-big,.sbtn-big,.gbtn-big,.rbtn-big,.ybtn-big{
+	padding-left:13px;
+	height: 38px;
+    line-height: 38px;
+}
+.bbtn-big b,.ibbtn-big b,.wbtn-big b,.iwbtn-big b,.sbtn-big b,
+.isbtn-big b,.gbtn-big b,.igbtn-big b,.rbtn-big b,.irbtn-big b,.ybtn-big b,.iybtn-big b{
+	font-weight:100;
+	display:block;
+	text-align:center;
+	cursor:pointer;	
+	padding-right:13px;
+}
+.ibbtn-big,.iwbtn-big,.isbtn-big,.igbtn-big,.irbtn-big,.iybtn-big {		
+	padding-left:30px;
+	height: 38px;
+    line-height: 38px;
+}
+.ibbtn-big em,.iwbtn-big em,.isbtn-big em,.igbtn-big em,.irbtn-big em,.iybtn-big em{
+    top:10px !important;
+}
+/*------------------------------*/
+.bbtn-big{
+	background-position:left -80px;	
+}
+.bbtn-big b,.ibbtn-big b {
+    color:#fff;
+	background-position:right -80px;
+}
+.bbtn-big:hover,.ibbtn-big:hover{
+	background-position:0 -120px
+}
+.bbtn-big:hover b,.ibbtn-big:hover b {
+	background-position:right -120px
+}
+.ibbtn-big{
+	background-position:left -80px;
+}
+/*------------------------------*/
+.wbtn-big{
+	background-position:0 0;	
+}
+.wbtn-big b,.iwbtn-big b {
+    color:#333;
+	background-position:right 0;
+}
+.wbtn-big:hover,.iwbtn-big:hover{
+	background-position:0 -40px;
+}
+.wbtn-big:hover b,.iwbtn-big:hover b {
+	background-position:right -40px;
+}
+.iwbtn-big{
+	background-position:left 0;
+}
+/*------------------------------*/
+.sbtn-big{
+	background-position:0 -160px;	
+}
+.sbtn-big b,.isbtn-big b {
+    color:#fff;
+	background-position:right -160px;
+}
+.isbtn-big{
+	background-position:left -160px;
+}
+.sbtn-big:hover,.isbtn-big:hover{
+	background-position:0 -200px;
+}
+.sbtn-big:hover b,.isbtn-big:hover b {
+	background-position:right -200px;
+}
+/*-----------------------------*/
+.gbtn-big{
+	background-position:0 -240px;	
+}
+.gbtn-big b,.igbtn-big b {
+    color:#fff;
+	background-position:right -240px;
+}
+.igbtn-big{
+	background-position:left -240px;
+}
+.gbtn-big:hover,.igbtn-big:hover{
+	background-position:0 -280px;
+}
+.gbtn-big:hover b,.igbtn-big:hover b {
+	background-position:right -280px;
+}
+/*--------------------------------*/
+.rbtn-big{
+	background-position:0 -320px;	
+}
+.rbtn-big b,.irbtn-big b {
+    color:#fff;
+	background-position:right -320px;
+}
+.irbtn-big{
+	background-position:left -320px;
+}
+.rbtn-big:hover,.irbtn-big:hover{
+	background-position:0 -360px;
+}
+.rbtn-big:hover b,.irbtn-big:hover b {
+	background-position:right -360px;
+}
+/*-------------------------------*/
+.ybtn-big{
+	background-position:0 -400px;	
+}
+.ybtn-big b,.iybtn-big b {
+    color:#fff;
+	background-position:right -400px;
+}
+.iybtn-big{
+	background-position:left -400px;
+}
+.ybtn-big:hover,.iybtn-big:hover{
+	background-position:0 -440px;
+}
+.ybtn-big:hover b,.iybtn-big:hover b {
+	background-position:right -440px;
+}
